@@ -1,0 +1,69 @@
+/**
+Theme Name: stars-game
+Description: Default theme for the React stars game example component.
+*/
+.game {
+    max-width: 500px;
+    min-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px; }
+  
+  .body {
+    display: flex; }
+  
+  .help {
+    color: dimgrey;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px; }
+  
+  .left {
+    text-align: center;
+    width: 50%;
+    border: thin solid #ddd; }
+  
+  .right {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border: thin solid #ddd; }
+  
+  .star {
+    display: inline-block;
+    margin: 0 15px; }
+  
+  .star:after {
+    content: "\2605";
+    font-size: 45px; }
+  
+  .number {
+    background-color: #eee;
+    border: thin solid #ddd;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    font-size: 25px; }
+  
+  .number:focus, .number:active {
+    outline: none;
+    border: thin solid #ddd; }
+  
+  .timer {
+    margin-top: 15px;
+    margin-left: 3px;
+    font-family: Impact;
+    font-size: 20px; }
+  
+  .timer-color-normal {
+    color: forestgreen; }
+  
+  .timer-color-low {
+    color: red; }
+  
+  .game-done .message {
+    font-size: 250%;
+    font-weight: bold;
+    margin: 15px; }
+  

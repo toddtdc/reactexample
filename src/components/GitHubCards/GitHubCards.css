@@ -1,0 +1,36 @@
+/**
+Theme Name: GitHub Cards
+Description: Default theme for the GitHub Cards example component.
+*/
+.github-panel {
+    min-width: 600px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px; 
+    text-align: left; }
+  
+  .github-profile {
+    margin: 1rem; }
+    .github-profile img {
+      width: 75px; }
+    .github-profile .info {
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      margin-left: 12px; }
+      .github-profile .info .name {
+        font-size: 1.25rem;
+        font-weight: bold; }
+  
+  form {
+    border: thin solid #888;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center; }
+  
+  .header {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  
